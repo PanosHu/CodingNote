@@ -3,14 +3,14 @@
  *@author: Hu Pan
  *@date: 2015/09/12
  *@version: 0.1
- *@describe: coding工具函数合集
+ *@describe: coding工具函数
  ********************************/
 #include <iostream>
 #include <stack>
 using namespace std;
 
 template <typename T>
-void my_swap(T *var1, T *var2)
+void my_swap(T var1, T var2)
 {
     if (*var1 != *var2)
     {
@@ -21,7 +21,7 @@ void my_swap(T *var1, T *var2)
 }
 
 template <typename T>
-void display(T *beg, T *end)
+void display(T beg, T end)
 {
     while (beg != end)
     {
